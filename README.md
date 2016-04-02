@@ -4,6 +4,9 @@ Servidor 10.90 Evolutions Alissow Server + TFS 1.2 + Compilado Linux Ubuntu 14.0
 
 Compilação TFS 1.2 de 02/04/16. 
 
+SOURCES TFS 1.2 
+https://github.com/otland/forgottenserver
+
 #créditos
 https://github.com/comedinha/Evolutions
 http://www.tibiaking.com/forum/forums/topic/32469-evolutions-server/
