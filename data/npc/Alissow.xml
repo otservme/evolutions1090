@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<npc name="Alissow" script="Alissow.lua" walkinterval="5000" floorchange="0">
+    <health now="100" max="100" />
+    <look type="289" head="114" body="114" legs="91" feet="91" addons="3" />
+    <parameters>
+		<parameter key="message_greet" value="Welcome |PLAYERNAME|! Can I help you? Say {help}. I also sell some items and blessings, say {trade} or {bless}. If you want to live here and also say {set my town}." />
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="help;map;monsters;premium;addons;mounts;bless" />
+        <parameter key="keyword_reply1" value="Want to know about {premium}, {map}, {monsters}, {addons}, {mounts} ou {bless}?" />
+        <parameter key="keyword_reply2" value="The map has 11 cities. Dorion, Yalahar, Alfon, Venonh, Anknor, Smallville, Infernium, Flam, Saari and Mirand Theraan. Can be accessed through the boat with a captains or in the magic carpets." />
+        <parameter key="keyword_reply3" value="There are over 15.000 monsters around the map." />
+        <parameter key="keyword_reply4" value="To buy premium say {trade} and buy a premium scroll." />
+		<parameter key="keyword_reply5" value="Addons can be earned in quests or talking to NPCs, just say {addon}." />
+		<parameter key="keyword_reply6" value="The mounts can be achieved with the Julie and with monsters that can be found across the map." />
+		<parameter key="keyword_reply7" value="Comedinha sell bless for a good value. I sell them all by 50.000, say {buy all}. Or if you want, I sell {twist of fate}." />
+
+        <parameter key="module_shop" value="1" />
+        <parameter key="shop_buyable" value="aol,2173,10000;premium scroll,16101,750000" /> 
+        <parameter key="shop_sellable" value="aol,2173,5000;premium scroll,16101,500000" /> 
+    </parameters>
+</npc>
